@@ -65,10 +65,11 @@ NEXT-FLIX is an interactive movie recommendation system built using **Shiny in R
    ```
 2. Open the R script in RStudio.
 3. Run the script to launch the Shiny app:
+   Also make sure the datasets paths matches properly, since they come from your local directory.
    ```R
    shinyApp(ui = ui, server = server)
    ```
-4. Select your favorite movies and explore the recommendations!
+5. Select your favorite movies and explore the recommendations!
 
 ---
 
